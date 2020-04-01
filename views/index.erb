@@ -1,0 +1,8 @@
+<h1 class="head"> ALL THE STUDENTS</h1>
+  <% for student in @students %>
+ <p class="first" class="center">First Name : <%=student.first_name()%> </p>
+ <p class="first">Second Name : <%=student.second_name()%> </p>
+ <p class="age">Age :  <%=student.age()%> </p>
+ <p class="house">House : <%=student.house().name%> </p>
+ <hr>
+ <% end %>

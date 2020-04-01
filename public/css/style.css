@@ -1,0 +1,26 @@
+body{
+  background-image: url("https://cdn.gbposters.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/p/fp4759-harry-potter-hogwarts-day_1.jpg");
+  background-color: #CCCCCC;
+}
+
+.first{
+      color: purple;}
+
+.age{
+  color: red;
+}
+
+.house{
+  color: blue;
+}
+
+.center{
+  display: flex;
+ text-align: right;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  color: purple;
+}
